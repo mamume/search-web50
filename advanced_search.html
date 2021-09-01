@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/advanced_search.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>Google Advanced Search</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html" class="logo">
+            <img src="images/googlelogo_clr_74x24px.svg" alt="Google Logo">
+        </a>
+
+        <a href="./index.html">Google Search</a>
+        <a href="./image_search.html">Image Search</a>
+    </nav>
+
+    <h5 class="title">Advanced Search</h5>
+    <hr>
+
+    <form class="grid" action="https://www.google.com/search">
+        <h5 class="form-title">Find pages with...</h5>
+        <label id="desc-title">To do this in the search box.</label>
+        <label class="data-label">all these words:</label>
+        <input type="text" name="as_q" autocomplete="off">
+        <span>Type the important words: tri-colour rat terrier</span>
+        <label class="data-label">this exact word or phrase:</label>
+        <input type="text" name="as_epq" autocomplete="off">
+        <span>Put exact words in quotes: "rat terrier"</span>
+        <label class="data-label">any of these words:</label>
+        <input type="text" name="as_oq" autocomplete="off">
+        <span>Type Of between all the words you want: miniture OR standard</span>
+        <label class="data-label">none of these words:</label>
+        <input type="text" name="as_eq" autocomplete="off">
+        <span>Put a minus sign just before words that you don't want:-rodent, -"Jack Russell"</span>
+        <input type="submit" value="Advanced Search">
+    </form>
+
+</body>
+
+</html>
+<!-- 
+as_q=q1
+as_epq=q2
+as_oq=q3
+as_eq=q4 -->
