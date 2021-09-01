@@ -1,5 +1,5 @@
 # Search
-  A front-end for Google Search, Google Image Search, and Google Advanced Search.
+  A front-end design for Google Search, Google Image Search, and Google Advanced Search.
 
 ## Specification
 - **Pages**. The website has three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
