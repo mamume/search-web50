@@ -17,6 +17,6 @@
 - **Lucky**. Added an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link takes users directly to the first Google search result for the query, bypassing the normal results page.
 - **Aesthetics**. The CSS matches Google’s own aesthetics as best as possible.
 
-For more details [Search - CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/0/search/)
+*For more details: [Search - CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/projects/0/search/)*
 
 
